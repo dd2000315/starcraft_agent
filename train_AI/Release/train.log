@@ -1,0 +1,23 @@
+﻿生成启动时间为 2021/12/25 20:03:33。
+     1>项目“E:\StarCraft-AI-master\StarCraft-AI-master\train\train\train.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\wanga\BWAPI_412/include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CombatInfoRepre.cpp CombatNN.cpp CombatRL.cpp ExampleAIClient.cpp
+         CombatInfoRepre.cpp
+     1>CombatInfoRepre.cpp(112): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         CombatNN.cpp
+         CombatRL.cpp
+         ExampleAIClient.cpp
+     1>ExampleAIClient.cpp(257): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         E:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\StarCraft-AI-master\StarCraft-AI-master\train\Release\train.exe" /INCREMENTAL:NO /NOLOGO C:\Users\wanga\BWAPI_412/lib/BWAPI.lib C:\Users\wanga\BWAPI_412/lib/BWAPIClient.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\StarCraft-AI-master\StarCraft-AI-master\train\Release\train.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\StarCraft-AI-master\StarCraft-AI-master\train\Release\train.lib" /MACHINE:X86 /SAFESEH Release\CombatInfoRepre.obj
+         Release\CombatNN.obj
+         Release\CombatRL.obj
+         Release\ExampleAIClient.obj
+         正在生成代码
+         已完成代码的生成
+         train.vcxproj -> E:\StarCraft-AI-master\StarCraft-AI-master\train\Release\train.exe
+     1>已完成生成项目“E:\StarCraft-AI-master\StarCraft-AI-master\train\train\train.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.63
